@@ -320,10 +320,6 @@ app.intent('media response', (conv) => {
     name: 'Jazz in Paris',
     url: MEDIA_SOURCE,
     description: 'A funky Jazz tune',
-    icon: new Image({
-      url: IMG_URL_MEDIA,
-      alt: 'Media icon',
-    }),
   }));
   conv.ask(new Suggestions(intentSuggestions));
 });
